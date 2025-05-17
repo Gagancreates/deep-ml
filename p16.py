@@ -5,7 +5,7 @@
 
 
 import numpy as np
-def feature_scaling(data: np.ndarray) -> (np.ndarray, np.ndarray):
+def feature_scaling(data: np.ndarray) :
 	stdcol=np.std(data, axis=0)
 	meancol=np.mean(data, axis=0)
 	
